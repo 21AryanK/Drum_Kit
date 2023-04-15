@@ -87,3 +87,23 @@ footer {
   margin: 10px;
   background-color: white;
 }
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: auto;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  .set {
+    margin: 15% auto;
+  }
+  
+  .drum {
+    font-size: 3rem;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+  }
+}
